@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  background: url("../images/background.png");
+  background-size: cover;
+  font-family: 'lucida sans','Roboto', Arial, sans-serif, Verdana;
+}
+.centerbox{
+  position: absolute;
+  margin: auto;
+  top: 35px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.loginbox{
+  width: 320px;
+  height: 420px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 30px 30px;
+  background: #171c21; /* Old browsers */
+  background: -moz-linear-gradient(top, #171c21 0%, #0b0d0f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #171c21 0%,#0b0d0f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #171c21 0%,#0b0d0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.loginbox h1{
+  color: #fff;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  height: 40px;
+  font-size: 16px;
+}
+.loginbox input[type="submit"]{
+  border: none;
+  height: 40px;
+  background: #fa2525;
+  font-size: 18px;
+  border-radius: 18px;
+}
+.loginbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: #ffa500;
+  color: #000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgray;
+}
+.loginbox a:hover{
+  color: #ffc107;
+}
