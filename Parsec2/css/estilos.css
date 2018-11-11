@@ -3,68 +3,71 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-
-	/*background: url(bg.jpg);
+	font-family: Montserrat;
+	background: url("https://missionofhope.org/site/wp-content/uploads/2014/02/768-light-gray-gradient-1680x1050-abstract-wallpaper.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: table;*/
-	font-family: Montserrat;
+	display: table;
 }
 
-header {
-	padding: 0;
-	margin: 0;
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 60px;
+	box-sizing: border-box;
+	padding: 0 10em;
 	background: #484848;
 	border-bottom: 1.2px solid #B1645C;
 }
-
-.logo {
+nav .logo {
 	color: #fff;
 	letter-spacing: 1px;
 	float: left;
 	font-size: 22px;
 	line-height: 60px;
-	margin: 0 6em;
 }
-
-.menu {
+nav ul {
+	margin: 0;
 	float: right;
-	line-height: 30px;
-	margin: 0 6em;
-}
-.menu ul {
+	line-height: 60px;
 	list-style: none;
 }
-.menu ul li {
+nav ul li {
 	display: inline-block;
 }
-.menu ul li a {
+nav ul li a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 16px;
 	padding: 0 20px;
 }
+nav ul li:hover {
+	border-bottom: 1px solid #B1645C;
+}
+nav ul li.active {
+	border-bottom: 1px solid #B1645C;
+}
 
-#login{
-	background: gray;
+section.main{
 	width: 100%;
-	height: 400px;
+	height: 100vh;
 }
 .login {
 	float: left;
 	background: #fff;
 	width: 250px;
-  height: 300px;
-	margin: 50px 8.3em;
+	height: 400px;
+	margin-top: calc(50vh - 170px);
+	margin-left: 10em;
 }
 
-#info {
+section.sec-info {
 	width: 100%;
 	height: 300px;
-	/*background: blue;*/
+	background: white;
 }
 .info {
 	padding-top: 25px;
@@ -84,7 +87,6 @@ header {
 	border-top: 1px solid #E64D44;
 	width: 120px;
 }
-
 .box-images {
 	padding-top: 20px;
 	margin: 0 auto;
@@ -102,4 +104,10 @@ header {
 .images-info p {
 	font-size: 11px;
 	font-weight: 600;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background: transparent;
 }
