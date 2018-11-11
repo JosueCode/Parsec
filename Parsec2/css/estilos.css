@@ -45,10 +45,13 @@ nav ul li a {
 	padding: 0 20px;
 }
 nav ul li:hover {
-	border-bottom: 1px solid #B1645C;
+	border-bottom: 1px solid #E64C3A;
 }
 nav ul li.active {
-	border-bottom: 1px solid #B1645C;
+	border-bottom: 1px solid #E64C3A;
+}
+nav ul li.active a {
+	color: #E64C3A;
 }
 
 section.main{
@@ -58,10 +61,47 @@ section.main{
 .login {
 	float: left;
 	background: #fff;
-	width: 250px;
+	width: 200px;
 	height: 400px;
 	margin-top: calc(50vh - 170px);
 	margin-left: 10em;
+	padding: 0 30px;
+}
+.login h1 {
+	color: #000;
+	margin: 0;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.login input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"] {
+	background: #F4F4F4;
+	border: none;
+	height: 40px;
+	font-size: 14px;
+}
+.login input[type="submit"] {
+	color: #fff;
+	border: none;
+	height: 40px;
+	background: #E64C3A;
+	font-size: 18px;
+	border-radius: 18px;
+}
+.login a{
+	text-decoration: none;
+	font-size: 12px;
+	color: darkgray;
+}
+.login input::placeholder {
+	color: #000;
+	font-weight: bold;
+	padding-left: 15px;
 }
 
 section.sec-info {
