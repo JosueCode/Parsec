@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto'>
-		<title>Home</title>
-	</head>
-	<body>
-		<header>
-			<div id="logo">
-				<img src="images/logo.png" width="150px">
-			</div>
-		</header>
-		<section>
-			<div class="centerbox loginbox">
-				<form action="#">
-					<h1>Entrar</h1>
-					<input type="text" placeholder="Email" name="email" required>
-					<input type="password" placeholder="Senha" name="password" required>
-					<input type="submit" name="submit" value="Entrar">
-					<a href="#">Esqueceu a senha?</a>
-				</form>
-			</div>
-		</section>
-	</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="shadow">
+          <img src="img/user.png" width="150px">
+        </div>
+        <div class="loginbox">
+          <h1>Login</h1>
+          <form class="login" action="index.html" method="post">
+            <input type="text" name="email" placeholder="Email...">
+            <input type="password" name="pass" placeholder="Senha...">
+            <input type="submit" name="submit" value="Entrar">
+          </form>
+          <a href="#">Esqueçeu a senha</a>
+        </div>
+      </div>
+    </section>
+
+  </body>
 </html>
