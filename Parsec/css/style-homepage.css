@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 body {
   margin: 0;
   padding: 0;
+  background: #efefef;
+  font-family: "Oxygen", sans-serif;
 }
 
 header {
-  padding: 11px 13em;
-  height: 27px;
+  padding: 7px 13em;
+  height: 34px;
   background: black;
 }
 
@@ -14,6 +17,7 @@ header {
 }
 
 .search-box {
+  margin-top: 3px;
   float: left;
 }
 .search-box input {
@@ -35,6 +39,7 @@ header {
 }
 
 .menu-right {
+  background: black;
   float: right;
   display: flex;
   align-items: center;
@@ -47,19 +52,178 @@ header {
 }
 .menu-right nav ul li {
   display: inline-block;
+  color: #fff;
+
 }
 .menu-right nav ul li a {
   text-decoration: none;
-  color: #fff;
   font-size: 15px;
   padding: 0 10px;
+  color: #fff;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.menu-right img{
+.menu-right img {
   border-radius: 50%;
   margin-left: 35px;
-  border: 2px solid orange;
+  border: 2px solid green;
+}
+.menu-right img:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.submenu-conteudo {
+  display: none;
+  margin-top: 66px;
+  margin-left: -75px;
+  position: absolute;
+  background-color:#f1f1f1;
+  min-width: 140px;
+  border: 0px solid #ccc;
+  overflow: auto;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+}
+.submenu-conteudo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.submenu-conteudo a:hover {
+  background: #ddd;
+}
+.show-menu {
+  display: block;
+}
+
+section {
+  margin: 0 13em;
+  margin-top: 30px;
+}
+
+.left {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+#header-profile-background {
+  background: black;
+  width: 100%;
+  height: 80px;
+}
+.profile-info-box {
+  background: #fff;
+  width: 100%;
+}
+.profile-info-box img {
+  border-radius: 50%;
+  margin: auto;
+  display: table;
+  margin-top: -40px;
+  border: 4px solid #fff;
+}
+.profile-info-box h4, h3, p {
+  text-align: center;
+  margin: 5px 0;
+}
+.info-profile p {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 20px;
+}
+.seguindo h4, .seguidores h4 {
+  color: #515151;
+  font-size: 16px;
+  font-weight: normal;
+}
+.seguindo p, .seguidores p {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+}
+.seguindo, .seguidores, .view-profile {
+  padding: 5px 0;
+  border-top: 1px solid rgba(155, 155, 155, 0.3);
+}
+.view-profile {
+  padding: 10px 0;
+  text-align: center;
+}
+.view-profile a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.middle {
+  float: left;
+  width: 54%;
+  min-width: 400px;
+}
+.write-new-post {
+  padding-right: 17px;
+  background: #fff;
+  height: 80px;
+  border-top: 3px solid green;
+  display: flex;
+  align-items: center;
+}
+.write-new-post img{
+  border-radius: 50%;
+  margin: 0 17px;
+}
+.write-new-post input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.post1 {
+  margin-top: 20px;
+  height: 300px;
+  background: #fff;
+}
+.header-post {
+  display: flex;
+  align-items: center;
+}
+.header-post img {
+  margin: 10px;
+  border-radius: 50%;
+}
+.post-info h4, p {
+  margin: 0;
+}
+.post-info p {
+  font-size: 11px;
+}
+
+
+
+.right {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  height: 500px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.suggestions {
+  background: #fff;
+  width: 100%;
+  height: 250px;
 }

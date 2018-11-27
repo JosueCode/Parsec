@@ -2,8 +2,10 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style-homepage.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript" src="js/open-menu.js"></script>
     <title>Home</title>
   </head>
   <body>
@@ -17,13 +19,67 @@
       <div class="menu-right">
         <nav>
           <ul>
-            <li><a href="homepage.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-            <li><a href="#"><i class="fa fa-wpexplorer"></i><span>Explorar</span></a></li>
-            <li><a href="#"><i class="fa fa-bell"></i><span>Notificações</span></a></li>
-            <li><a href="#"><i class="fa fa-envelope"></i><span>Mensagens</span></a></li>
+            <li><a href="homepage.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fab fa-wpexplorer"></i>Explorar</a></li>
+            <li><a href="#"><i class="fas fa-bell"></i>Notificações</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i>Mensagens</a></li>
           </ul>
         </nav>
-        <img src="img/user-photo.png" width="25px">
+
+        <div class="dropdown">
+          <img onclick="myfunction()" src="img/user-photo.png" class="img-btn" width="25px">
+            <div id="submenu" class="submenu-conteudo">
+              <a href="#"><i class="fas fa-user"></i> Meu perfil</a>
+              <a href="index.html"><i class="fas fa-sign-out-alt"></i> Sair</a>
+            </div>
+        </div>
     </header>
+
+    <section>
+      <div class="left">
+        <div class="profile-info-box">
+          <div id="header-profile-background">
+          </div>
+          <div class="info-profile">
+            <img src="img/user-photo.png" width="80px">
+            <h3>Elon Musk</h3>
+            <p>@ElonMusk</p>
+          </div>
+          <div class="seguidores">
+            <h4>Seguidores</h4>
+            <p>23,5 mi</p>
+          </div>
+          <div class="seguindo">
+            <h4>Seguindo</h4>
+            <p>75</p>
+          </div>
+          <div class="view-profile">
+            <a href="#"><span>Visualizar perfil</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="write-new-post">
+          <img src="img/user-photo.png" width="35px">
+          <input type="text" name="new-post" placeholder="Escrever uma nova postagem">
+        </div>
+
+        <div class="post1">
+          <div class="header-post">
+            <img src="img/user-photo.png" width="40px">
+            <div class="post-info">
+              <h4>Elon Musk</h4>
+              <p>20 horas átras</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="suggestions">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
