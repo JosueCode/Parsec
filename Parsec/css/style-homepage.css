@@ -134,7 +134,7 @@ section {
   margin-top: -40px;
   border: 4px solid #fff;
 }
-.profile-info-box h4, h3, p {
+.profile-info-box h4, .profile-info-box h3, .profile-info-box p {
   text-align: center;
   margin: 5px 0;
 }
@@ -157,6 +157,10 @@ section {
   padding: 5px 0;
   border-top: 1px solid rgba(155, 155, 155, 0.3);
 }
+.seguindo:hover, .seguidores:hover {
+  background: #e8e8e8;
+  cursor: pointer;
+}
 .view-profile {
   padding: 10px 0;
   text-align: center;
@@ -166,6 +170,42 @@ section {
   color: green;
   font-weight: bold;
   font-size: 12px;
+}
+.view-profile a:hover {
+  text-decoration: underline;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+  background: white;
+}
+.footer a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 12px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer span {
+  margin-top: 5px;
+}
+.copyright {
+  border-top: 1px solid rgba(155, 155, 155, 0.3);
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.copyright img {
+  float: left;
+}
+.copyright span {
+  margin: 0;
+  float: right;
+  font-size: 10px;
+  color: #808080;
 }
 
 .middle {
@@ -192,12 +232,13 @@ section {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.post1 {
+.post {
   margin-top: 20px;
-  height: 300px;
+  overflow: auto;
   background: #fff;
 }
 .header-post {
+  float: left;
   display: flex;
   align-items: center;
 }
@@ -205,25 +246,213 @@ section {
   margin: 10px;
   border-radius: 50%;
 }
+.header-post img:hover {
+  cursor: pointer;
+}
 .post-info h4, p {
   margin: 0;
 }
 .post-info p {
   font-size: 11px;
+  color: #696969;
 }
-
-
+.post-info h4 {
+  font-size: 15px;
+}
+.post-info h4:hover, .post-info p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menu-post {
+  padding: 10px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.menu-post i {
+  color: #696969;
+  margin: 10px;
+}
+.menu-post i:hover {
+  cursor: pointer;
+}
+.content-post {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  padding-bottom: 10px;
+}
+.content-post span {
+  text-align: justify;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #303030;
+}
+.analytics-post {
+  color: #696969;
+  font-size: 14px;
+  font-family: sans-serif;
+  float: left;
+  padding: 15px 15px;
+  border-top: 1px solid rgba(155, 155, 155, 0.5);
+  box-sizing: border-box;
+  width: 100%;
+}
+.inte:hover {
+  cursor: pointer;
+  color: black;
+}
+.curtir {
+  float: left;
+  padding-right: 20px;
+}
+.repostar {
+  float: left;
+  padding-right: 20px;
+}
+.comentar {
+  float: left;
+  padding-right: 20px;
+}
+.views {
+  float: right;
+}
+.show-more-posts {
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  background: #fff;
+}
+.show-more-posts p{
+  font-family: "HelveticaNeue";
+  color: rgb(85,85,85);
+  font-size: 15px;
+  padding: 10px 15px;
+}
+.show-more-posts p:hover{
+  color: blue;
+  cursor: pointer;
+}
 
 .right {
   float: left;
   width: 23%;
   min-width: 200px;
-  height: 500px;
   padding-left: 25px;
   box-sizing: border-box;
 }
 .suggestions {
-  background: #fff;
-  width: 100%;
-  height: 250px;
+  background: white;
+}
+.sugg-menu {
+  overflow: auto;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
+}
+.sugg-menu h3 {
+  float: left;
+  margin: 0;
+  font-size: 15px;
+}
+.sugg-menu i {
+  float: right;
+  font-size: 15px;
+  color: #696969;
+}
+.sugg-menu i:hover {
+  cursor: pointer;
+}
+.sugg-user {
+  display: flex;
+  align-items: center;
+}
+.user-name-box {
+  width: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.user-name-box h4:hover, .user-name-box p:hover, .user-name-box img:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.user-name-box img {
+  padding: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.user-name-box h4 {
+  margin: 0;
+  font-size: 15px;
+}
+.user-name-box p {
+  font-size: 13px;
+  color: #696969;
+}
+.add-user-btn {
+  width: 20%;
+}
+.add-user-btn i{
+  margin-right: 15px;
+  float: right;
+  font-size: 25px;
+  color: #696969;
+}
+.add-user-btn i:hover {
+  color: green;
+  cursor: pointer;
+}
+.trending {
+  background: white;
+}
+.trend-header {
+  margin-top: 20px;
+  overflow: auto;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
+}
+.trend-header h3 {
+  float: left;
+  margin: 0;
+  font-size: 15px;
+}
+.trend-header i {
+  float: right;
+  font-size: 15px;
+  color: #696969;
+}
+.trend-header i:hover {
+  cursor: pointer;
+}
+.hashtag {
+  padding: 5px 10px;
+}
+.hashtag a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+}
+.hashtag a:hover {
+  text-decoration: underline;
+}
+.hashtag p {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #808080;
+}
+.show-more-hastags {
+  text-align: center;
+  padding: 5px 0;
+  border-top: 1px solid rgba(155, 155, 155, 0.3);
+}
+.show-more-hastags a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #808080;
+}
+.show-more-hastags a:hover{
+  text-decoration: underline;
+  color: #808080;
 }
