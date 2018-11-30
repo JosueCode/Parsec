@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/style-notificacoes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript" src="js/open-menu.js"></script>
+    <title>Notificações - Parsec</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homepage.html"><img src="img/logo.png" height="25px"></a>
+      </div>
+      <div class="search-box">
+        <input type="text" name="search" placeholder="Pesquisar...">
+      </div>
+      <div class="menu-right">
+        <nav>
+          <ul>
+            <li><a href="homepage.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fab fa-wpexplorer"></i>Explorar</a></li>
+            <li><a href="notificacoes.html"><i class="fas fa-bell"></i>Notificações</a></li>
+            <li><a href="mensagens.html"><i class="fas fa-envelope"></i>Mensagens</a></li>
+          </ul>
+        </nav>
+
+        <div class="dropdown">
+          <img onclick="myfunction()" src="img/user-photo.png" class="img-btn" width="28px">
+          <div id="submenu" class="submenu-conteudo">
+            <a href="#"><i class="fas fa-user"></i> Meu perfil</a>
+            <a href="index.html"><i class="fas fa-sign-out-alt"></i> Sair</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  	<section>
+        <div class="left">
+        	<div class="trending"> <!-- Em alta -->
+            <div class="trend-header">
+                <h3>Em Alta</h3>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="hashtags-trending"> <!-- Hashtags -->
+              <div class="hashtag"> <!-- Hashtag 1 -->
+                <a href="#">#MasterChef</a>
+                <p>33,1 mil posts</p>
+              </div>
+              <div class="hashtag"> <!-- Hashtag 2 -->
+                <a href="#">#BTS</a>
+                <p>22,5 mil posts</p>
+              </div>
+              <div class="hashtag"> <!-- Hashtag 3 -->
+                <a href="#">#Natal</a>
+                <p>20 mil posts</p>
+              </div>
+              <div class="hashtag"> <!-- Hashtag 4 -->
+                <a href="#">Ariana Grande</a>
+                <p>16,6 mil posts</p>
+              </div>
+            </div>
+            <div class="show-more-hastags"> <!-- Mostrar mais -->
+              <a href="#">Ver tudo</a>
+            </div>
+          </div>
+          <div class="footer"> <!-- rodapé -->
+            <span><a href="#">Sobre |</a><a href="#"> Política de Cookies</a></span>
+            <span><a href="#">Política de Privacidade</a></span>
+            <span><a href="#">Linguagem |</a><a href="#"> Central de Ajuda</a></span>
+            <div class="copyright">
+              <a href="homepage.html"><img src="img/logo-black.png" width="50px"></a>
+              <span><i class="fas fa-copyright"></i> Copyright 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle">
+          <div class="notification">
+          	<p><strong>Chris Evans</strong> e outros três seguiu você.</p>
+          	<i class="fas fa-copyright"></i>
+          	<div>
+          		<img src="img/chris-evans.png" width="30px">
+          		<img src="img/bill-gates.png" width="30px">
+          		<img src="img/steve-jobs.png" width="30px">
+          		<img src="img/alok.png" width="30px">
+          	</div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="suggestions"> <!-- Sugestões -->
+            <div class="sugg-menu">
+                <h3>Sugestões</h3>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="sugg-user"> <!-- User 1 -->
+              <div class="user-name-box">
+                <img src="img/chris-evans.png">
+                <div>
+                  <h4>Chris Evans</h4>
+                  <p>@ChrisEvans</p>
+                </div>
+              </div>
+              <div class="add-user-btn">
+                <i class="far fa-plus-square"></i>
+              </div>
+            </div>
+            <div class="sugg-user"> <!-- User 2 -->
+              <div class="user-name-box">
+                <img src="img/bill-gates.png">
+                <div>
+                  <h4>Bill Gates</h4>
+                  <p>@BillGates</p>
+                </div>
+              </div>
+              <div class="add-user-btn">
+                <i class="far fa-plus-square"></i>
+              </div>
+            </div>
+            <div class="sugg-user"> <!-- User 3 -->
+              <div class="user-name-box">
+                <img src="img/steve-jobs.png">
+                <div>
+                  <h4>Steve Jobs</h4>
+                  <p>@stevejobs</p>
+                </div>
+              </div>
+              <div class="add-user-btn">
+                <i class="far fa-plus-square"></i>
+              </div>
+            </div>
+            <div class="sugg-user"> <!-- User 4 -->
+              <div class="user-name-box">
+                <img src="img/alok.png">
+                <div>
+                  <h4>Alok</h4>
+                  <p>@Alok</p>
+                </div>
+              </div>
+              <div class="add-user-btn">
+                <i class="far fa-plus-square"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
