@@ -15,6 +15,7 @@ section {
   height: 80px;
 }
 .profile-info-box {
+  margin-bottom: 30px;
   background: #fff;
   width: 100%;
 }
@@ -64,39 +65,6 @@ section {
 }
 .view-profile a:hover {
   text-decoration: underline;
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 25px;
-  background: white;
-}
-.footer a {
-  text-decoration: none;
-  color: #808080;
-  font-size: 12px;
-}
-.footer a:hover {
-  text-decoration: underline;
-}
-
-.footer span {
-  margin-top: 5px;
-}
-.copyright {
-  border-top: 1px solid rgba(155, 155, 155, 0.3);
-  margin-top: 10px;
-  padding: 10px 15px;
-}
-.copyright img {
-  float: left;
-}
-.copyright span {
-  margin: 0;
-  float: right;
-  font-size: 10px;
-  color: #808080;
 }
 
 .middle {
@@ -232,118 +200,4 @@ section {
   min-width: 200px;
   padding-left: 25px;
   box-sizing: border-box;
-}
-.suggestions {
-  background: white;
-}
-.sugg-menu {
-  overflow: auto;
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
-}
-.sugg-menu h3 {
-  float: left;
-  margin: 0;
-  font-size: 15px;
-}
-.sugg-menu i {
-  float: right;
-  font-size: 15px;
-  color: #696969;
-}
-.sugg-menu i:hover {
-  cursor: pointer;
-}
-.sugg-user {
-  display: flex;
-  align-items: center;
-}
-.user-name-box {
-  width: 80%;
-  float: left;
-  display: flex;
-  align-items: center;
-}
-.user-name-box h4:hover, .user-name-box p:hover, .user-name-box img:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-.user-name-box img {
-  padding: 10px;
-  width: 40px;
-  border-radius: 50%;
-}
-.user-name-box h4 {
-  margin: 0;
-  font-size: 15px;
-}
-.user-name-box p {
-  font-size: 13px;
-  color: #696969;
-}
-.add-user-btn {
-  width: 20%;
-}
-.add-user-btn i{
-  margin-right: 15px;
-  float: right;
-  font-size: 25px;
-  color: #696969;
-}
-.add-user-btn i:hover {
-  color: green;
-  cursor: pointer;
-}
-.trending {
-  background: white;
-}
-.trend-header {
-  margin-top: 20px;
-  overflow: auto;
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
-}
-.trend-header h3 {
-  float: left;
-  margin: 0;
-  font-size: 15px;
-}
-.trend-header i {
-  float: right;
-  font-size: 15px;
-  color: #696969;
-}
-.trend-header i:hover {
-  cursor: pointer;
-}
-.hashtag {
-  padding: 5px 10px;
-}
-.hashtag a {
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
-  color: green;
-}
-.hashtag a:hover {
-  text-decoration: underline;
-}
-.hashtag p {
-  font-size: 12px;
-  font-family: sans-serif;
-  color: #808080;
-}
-.show-more-hastags {
-  text-align: center;
-  padding: 5px 0;
-  border-top: 1px solid rgba(155, 155, 155, 0.3);
-}
-.show-more-hastags a{
-  text-decoration: none;
-  font-size: 12px;
-  color: #808080;
-}
-.show-more-hastags a:hover{
-  text-decoration: underline;
-  color: #808080;
 }

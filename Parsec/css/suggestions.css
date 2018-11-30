@@ -1,0 +1,62 @@
+.suggestions {
+  background: white;
+  margin-bottom: 20px;
+}
+.sugg-menu {
+  overflow: auto;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
+}
+.sugg-menu h3 {
+  float: left;
+  margin: 0;
+  font-size: 15px;
+}
+.sugg-menu i {
+  float: right;
+  font-size: 15px;
+  color: #696969;
+}
+.sugg-menu i:hover {
+  cursor: pointer;
+}
+.sugg-user {
+  display: flex;
+  align-items: center;
+}
+.user-name-box {
+  width: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.user-name-box h4:hover, .user-name-box p:hover, .user-name-box img:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.user-name-box img {
+  padding: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.user-name-box h4 {
+  margin: 0;
+  font-size: 15px;
+}
+.user-name-box p {
+  font-size: 13px;
+  color: #696969;
+}
+.add-user-btn {
+  width: 20%;
+}
+.add-user-btn i{
+  margin-right: 15px;
+  float: right;
+  font-size: 25px;
+  color: #696969;
+}
+.add-user-btn i:hover {
+  color: green;
+  cursor: pointer;
+}

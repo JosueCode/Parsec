@@ -23,7 +23,8 @@ section {
   right: 0;
   width: 700px;
   height: 320px;
-  background: rgba(103, 58, 183, .8);
+  background: rgba(34, 34, 34, .87);
+  /*background: rgba(103, 58, 183, .8);*/
 }
 .container .loginbox, .shadow {
   position: relative;
@@ -34,7 +35,7 @@ section {
 }
 .container .shadow img {
   position: absolute;
-  top: calc(50% - 75px);
+  bottom: 50%;
   left: calc(50% - 75px);
 }
 .container .loginbox {
@@ -58,20 +59,23 @@ section {
   font-size: 15px;
 }
 .container .loginbox input:hover {
-  border: 2px solid #673ab7;
+  border: 2px solid #333;
 }
 .container .loginbox input[type="submit"] {
   color: #fff;
-  background: #673ab7;
+  /*background: #673ab7;*/
+  background: #222;
   font-size: 16px;
   transition: .5s;
 }
 .container .loginbox input[type="submit"]:hover {
-  background: #ff0057;
-  border: 2px solid #ff0057;
+  /*background: #ff0057;*/
+  background: black;
+  border: 2px solid black;
 }
 .container .loginbox a {
-  color: #673ab7;
+  /*color: #673ab7;*/
+  color: #222;
   text-decoration: none;
   font-weight: bold;
 }

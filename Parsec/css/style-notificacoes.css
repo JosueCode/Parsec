@@ -9,124 +9,84 @@ section {
   padding-right: 25px;
   box-sizing: border-box;
 }
-.trending {
-  background: white;
-}
-.trend-header {
-  overflow: auto;
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
-}
-.trend-header h3 {
-  float: left;
-  margin: 0;
-  font-size: 15px;
-}
-.trend-header i {
-  float: right;
-  font-size: 15px;
-  color: #696969;
-}
-.trend-header i:hover {
-  cursor: pointer;
-}
-.hashtag {
-  padding: 5px 10px;
-}
-.hashtag a {
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
-  color: green;
-}
-.hashtag a:hover {
-  text-decoration: underline;
-}
-.hashtag p {
-  margin: 0;
-  font-size: 12px;
-  font-family: sans-serif;
-  color: #808080;
-}
-.show-more-hastags {
-  text-align: center;
-  padding: 5px 0;
-  border-top: 1px solid rgba(155, 155, 155, 0.3);
-}
-.show-more-hastags a{
-  text-decoration: none;
-  font-size: 12px;
-  color: #808080;
-}
-.show-more-hastags a:hover{
-  text-decoration: underline;
-  color: #808080;
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 25px;
-  background: white;
-}
-.footer a {
-  text-decoration: none;
-  color: #808080;
-  font-size: 12px;
-}
-.footer a:hover {
-  text-decoration: underline;
-}
-.footer span {
-  margin-top: 5px;
-}
-.copyright {
-  border-top: 1px solid rgba(155, 155, 155, 0.3);
-  margin-top: 10px;
-  padding: 10px 15px;
-}
-.copyright img {
-  float: left;
-}
-.copyright span {
-  margin: 0;
-  float: right;
-  font-size: 10px;
-  color: #808080;
-}
-
 
 .middle {
+  border-top: 2px solid green;
   float: left;
   width: 54%;
   min-width: 400px;
 }
-.notification {
-  border-top: 2px solid green;
+
+.notification-others-followed-you {
   margin-bottom: 20px;
   overflow: auto;
   background: #fff;
   padding: 10px;
   box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
 }
-.notification p {
+.notification-others-followed-you p {
   float: left;
   margin: 0;
   font-size: 14px;
 }
-.notification div {
+.notification-others-followed-you div {
   float: left;
   width: 100%;
 }
-.notification div img {
+.notification-others-followed-you div img {
   margin-top: 5px;
   margin-right: 3px;
   border-radius: 50%;
 }
-.notification div img:hover {
+.notification-others-followed-you div img:hover {
   cursor: pointer;
 }
-
+.notification-followed-you {
+  overflow: auto;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+.notification-followed-you .nfy-left {
+  width: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.notification-followed-you .nfy-left img {
+  border-radius: 50%;
+}
+.notification-followed-you .nfy-left p {
+  margin: 0;
+  margin-left: 7px;
+  font-size: 14px;
+}
+.notification-followed-you .nfy-right {
+  width: calc(20%-5px);
+  float: right;
+  direction: rtl;
+  margin: 5px;
+}
+.notification-followed-you .nfy-right button {
+  background: #fff;
+  border: 1px solid green;
+  color: green;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Helvetica";
+}
+.notification-followed-you .nfy-right button:hover {
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+.notification-followed-you .nfy-right button:active {
+  box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.1);
+  background: green;
+  color: white;
+}
 
 .right {
   float: left;
@@ -134,66 +94,4 @@ section {
   min-width: 200px;
   padding-left: 25px;
   box-sizing: border-box;
-}
-.suggestions {
-  background: white;
-}
-.sugg-menu {
-  overflow: auto;
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(155, 155, 155, 0.3);
-}
-.sugg-menu h3 {
-  float: left;
-  margin: 0;
-  font-size: 15px;
-}
-.sugg-menu i {
-  float: right;
-  font-size: 15px;
-  color: #696969;
-}
-.sugg-menu i:hover {
-  cursor: pointer;
-}
-.sugg-user {
-  display: flex;
-  align-items: center;
-}
-.user-name-box {
-  width: 80%;
-  float: left;
-  display: flex;
-  align-items: center;
-}
-.user-name-box h4:hover, .user-name-box p:hover, .user-name-box img:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-.user-name-box img {
-  padding: 10px;
-  width: 40px;
-  border-radius: 50%;
-}
-.user-name-box h4 {
-  margin: 0;
-  font-size: 15px;
-}
-.user-name-box p {
-  margin: 0;
-  font-size: 13px;
-  color: #696969;
-}
-.add-user-btn {
-  width: 20%;
-}
-.add-user-btn i{
-  margin-right: 15px;
-  float: right;
-  font-size: 25px;
-  color: #696969;
-}
-.add-user-btn i:hover {
-  color: green;
-  cursor: pointer;
 }
