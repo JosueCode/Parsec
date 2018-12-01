@@ -26,7 +26,7 @@ section {
   background: rgba(34, 34, 34, .87);
   /*background: rgba(103, 58, 183, .8);*/
 }
-.container .loginbox, .shadow {
+.container .cadastrobox, .shadow {
   position: relative;
   width: 50%;
   height: 320px;
@@ -38,17 +38,17 @@ section {
   bottom: 50%;
   left: calc(50% - 75px);
 }
-.container .loginbox {
+.container .cadastrobox {
   background: #fff;
-  padding: 30px 30px;
-  height: 350px;
-  top: -15px;
+  padding: 5px 30px;
+  height: 370px;
+  top: -25px;
   box-shadow: -20px 0 15px rgba(0, 0, 0, 0.2);
 }
-.container .loginbox h1 {
+.container .cadastrobox h1 {
   color: #262626;
 }
-.container .loginbox input {
+.container .cadastrobox input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -58,24 +58,22 @@ section {
   border-radius: 25px;
   font-size: 15px;
 }
-.container .loginbox input:hover {
+.container .cadastrobox input:hover {
   border: 2px solid #333;
 }
-.container .loginbox input[type="submit"] {
+.container .cadastrobox input[type="submit"] {
   color: #fff;
   /*background: #673ab7;*/
   background: #222;
   font-size: 16px;
   transition: .5s;
 }
-.container .loginbox input[type="submit"]:hover {
+.container .cadastrobox input[type="submit"]:hover {
   /*background: #ff0057;*/
   background: black;
   border: 2px solid black;
 }
-.container .loginbox a {
-  display: block;
-  padding-bottom: 5px;
+.container .cadastrobox a {
   /*color: #673ab7;*/
   color: #222;
   text-decoration: none;
