@@ -1,0 +1,204 @@
+section {
+  margin: 0 13em;
+  margin-top: 30px;
+}
+.left {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+#header-profile-background {
+  background: black;
+  width: 100%;
+  height: 80px;
+}
+.profile-info-box {
+  margin-bottom: 30px;
+  background: #fff;
+  width: 100%;
+}
+.profile-info-box img {
+  border-radius: 50%;
+  margin: auto;
+  display: table;
+  margin-top: -40px;
+  border: 4px solid #fff;
+}
+.profile-info-box h4, .profile-info-box h3, .profile-info-box p {
+  text-align: center;
+  margin: 5px 0;
+}
+.info-profile p {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 20px;
+}
+.seguindo h4, .seguidores h4 {
+  color: #515151;
+  font-size: 16px;
+  font-weight: normal;
+}
+.seguindo p, .seguidores p {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+}
+.seguindo, .seguidores, .view-profile {
+  padding: 5px 0;
+  border-top: 1px solid rgba(155, 155, 155, 0.3);
+}
+.seguindo:hover, .seguidores:hover {
+  background: #e8e8e8;
+  cursor: pointer;
+}
+.view-profile {
+  padding: 10px 0;
+  text-align: center;
+}
+.view-profile a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+}
+.view-profile a:hover {
+  text-decoration: underline;
+}
+
+.middle {
+  float: left;
+  width: 54%;
+  min-width: 400px;
+}
+.write-new-post {
+  padding-right: 17px;
+  background: #fff;
+  height: 80px;
+  border-top: 3px solid green;
+  display: flex;
+  align-items: center;
+}
+.write-new-post img{
+  border-radius: 50%;
+  margin: 0 17px;
+}
+.write-new-post input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.post {
+  margin-top: 20px;
+  overflow: auto;
+  background: #fff;
+}
+.header-post {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.header-post img {
+  margin: 10px;
+  border-radius: 50%;
+}
+.header-post img:hover {
+  cursor: pointer;
+}
+.post-info h4, p {
+  margin: 0;
+}
+.post-info p {
+  font-size: 11px;
+  color: #696969;
+}
+.post-info h4 {
+  font-size: 15px;
+}
+.post-info h4:hover, .post-info p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.menu-post {
+  padding: 10px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.menu-post i {
+  color: #696969;
+  margin: 10px;
+}
+.menu-post i:hover {
+  cursor: pointer;
+}
+.content-post {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  padding-bottom: 10px;
+}
+.content-post span {
+  text-align: justify;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #303030;
+}
+.analytics-post {
+  color: #696969;
+  font-size: 14px;
+  font-family: sans-serif;
+  float: left;
+  padding: 15px 15px;
+  border-top: 1px solid rgba(155, 155, 155, 0.5);
+  box-sizing: border-box;
+  width: 100%;
+}
+.inte:hover {
+  cursor: pointer;
+  color: black;
+}
+.curtir {
+  float: left;
+  padding-right: 20px;
+}
+.repostar {
+  float: left;
+  padding-right: 20px;
+}
+.comentar {
+  float: left;
+  padding-right: 20px;
+}
+.views {
+  float: right;
+}
+.show-more-posts {
+  margin-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  background: #fff;
+}
+.show-more-posts p{
+  font-family: "HelveticaNeue";
+  color: rgb(85,85,85);
+  font-size: 15px;
+  padding: 10px 15px;
+}
+.show-more-posts p:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.right {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}

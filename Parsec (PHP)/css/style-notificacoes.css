@@ -1,0 +1,97 @@
+section {
+  margin: 0 13em;
+  margin-top: 30px;
+}
+.left {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.middle {
+  border-top: 2px solid green;
+  float: left;
+  width: 54%;
+  min-width: 400px;
+}
+
+.notification-others-followed-you {
+  margin-bottom: 20px;
+  overflow: auto;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+.notification-others-followed-you p {
+  float: left;
+  margin: 0;
+  font-size: 14px;
+}
+.notification-others-followed-you div {
+  float: left;
+  width: 100%;
+}
+.notification-others-followed-you div img {
+  margin-top: 5px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+.notification-others-followed-you div img:hover {
+  cursor: pointer;
+}
+.notification-followed-you {
+  overflow: auto;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+.notification-followed-you .nfy-left {
+  width: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.notification-followed-you .nfy-left img {
+  border-radius: 50%;
+}
+.notification-followed-you .nfy-left p {
+  margin: 0;
+  margin-left: 7px;
+  font-size: 14px;
+}
+.notification-followed-you .nfy-right {
+  width: calc(20%-5px);
+  float: right;
+  direction: rtl;
+  margin: 5px;
+}
+.notification-followed-you .nfy-right button {
+  background: #fff;
+  border: 1px solid green;
+  color: green;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Helvetica";
+}
+.notification-followed-you .nfy-right button:hover {
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+.notification-followed-you .nfy-right button:active {
+  box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.1);
+  background: green;
+  color: white;
+}
+
+.right {
+  float: left;
+  width: 23%;
+  min-width: 200px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
