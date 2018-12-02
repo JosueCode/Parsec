@@ -26,7 +26,7 @@
       $connect = mysqli_connect('localhost','root','','parsec_db');
       $insert = mysqli_query($connect,"INSERT INTO users (user,email,password) VALUES ('$name','$email','$password')");
       if($insert){
-        echo "<script>alert('Cadastro concluído com sucesso! Entre já!');window.location.href='homepage.php';</script>";
+        echo "<script>alert('Cadastro concluído com sucesso! Entre já!');window.location.href='index.php';</script>";
       }else{
         echo "<script>alert('Ocorreu um erro. Por favor, volte a tentar mais tarde.');</script>";
       }
